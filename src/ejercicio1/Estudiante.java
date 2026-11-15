@@ -1,3 +1,5 @@
+package ejercicio1;
+
 public class Estudiante {
     private String nombre;
     private int edad;
@@ -5,7 +7,7 @@ public class Estudiante {
 
     public Estudiante(String nombre, int edad, double notaPromedio) {
         this.nombre = nombre;
-        setEdad(edad);           // usamos el setter para validar
+        setEdad(edad);
         setNotaPromedio(notaPromedio);
     }
 

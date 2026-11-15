@@ -1,3 +1,5 @@
+package ejercicio2;
+
 public class Coche {
     private String marca;
     private String modelo;
@@ -21,7 +23,6 @@ public class Coche {
         return velocidadMaxima;
     }
 
-    // Solo incrementa si el valor es positivo
     public void acelerar(double incremento) {
         if (incremento > 0) {
             velocidadMaxima += incremento;
